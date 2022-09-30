@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
     vb1.vm.network "public_network", ip: "192.168.0.12", bridge: "wlp1s0"
     vb1.vm.provision "shell", path: "script.sh"
     vb1.vm.provider "virtualbox" do |vbox1|
-      vbox1.name = "maquina_focal64"
+      vbox1.name = "maquina-ngix"
       vbox1.memory = 1024
       vbox1.cpus = 2
     end

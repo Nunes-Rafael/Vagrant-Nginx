@@ -10,7 +10,7 @@ sudo apt install wget -y
 sudo apt install net-tools -y
 sudo snap install htop -y
 sudo snap install nmap -y
-sudo apt install systemd
+sudo apt install systemd -y
 hostnamectl set-hostname maquina-desafio
 sudo useradd rafael
-sudo apt install nginx 
+sudo apt install nginx -y
